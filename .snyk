@@ -16,6 +16,8 @@ patch:
   'npm:mime:20170907':
     - grunt-bower-installer > bower > request > form-data > mime:
         patched: '2020-11-22T16:50:18.334Z'
+    - grunt-bower-installer > bower > request > form-data > mime:
+        patched: '2020-11-22T16:56:35.036Z'
   'npm:minimatch:20160620':
     - grunt-bower-installer > bower > glob > minimatch:
         patched: '2020-11-22T16:50:18.334Z'
@@ -40,3 +42,6 @@ patch:
   'npm:uglify-js:20151024':
     - grunt-bower-installer > bower > handlebars > uglify-js:
         patched: '2020-11-22T16:50:18.334Z'
+  'npm:uglify-js:20150824':
+    - grunt-bower-installer > bower > handlebars > uglify-js:
+        patched: '2020-11-22T16:56:35.036Z'
