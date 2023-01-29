@@ -50,21 +50,3 @@ orbs:
       - run:
           name: "Testing"
           command: echo "Hi"
-
-
-  run_tests:
-    docker:
-
-      steps:
-        - checkout
-        - run:
-           name: install npm dependencies
-           command:
-             npm install --save
-        - run: 
-           name: Run Unit Tests
-           command:
-             ./node_module/mocha/bin/mocha test/ --reporter mochawesome --reporter-options reportbintest-results,reportfilenametest-results
-        - store_test_results:
-            path: test_results
-        - store_artifacts
